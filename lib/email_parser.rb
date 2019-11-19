@@ -13,6 +13,8 @@ class EmailAddressParser
   end
   
   def parse
+    @csv_emails.split.collect 
+    |name| name.s[;ot]
     
   end
   
