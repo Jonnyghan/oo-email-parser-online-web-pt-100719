@@ -15,7 +15,7 @@ class EmailAddressParser
     array=@csv_emails.split(',')
     two = array[2].strip
     binding.pry
-    end 
+     
     
   end
   
