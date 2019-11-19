@@ -9,13 +9,13 @@ class EmailAddressParser
   
   def initialize(csv_emails)
     @csv_emails = csv_emails
-    binding.pry
   end
   
   def parse
     @csv_emails.split.collect do
     |name| name.split(',')
     end 
+    binding.pry
   end
   
 end
