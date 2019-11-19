@@ -14,7 +14,7 @@ class EmailAddressParser
   
   def parse
     @csv_emails.split.collect 
-    |name| name.split(", ")
+    |name| name.split(',')
     
   end
   
