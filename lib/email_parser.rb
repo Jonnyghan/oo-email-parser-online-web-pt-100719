@@ -5,6 +5,7 @@
 
 class EmailAddressParser
   
+  def initialize(csv)
   
   
 end
