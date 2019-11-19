@@ -4,6 +4,7 @@
 # or whitespace (' ').
 
 class EmailAddressParser
+  attr_accessor :name,
   
   def initialize(csv_emails)
     @csv_emails = csv_emails
