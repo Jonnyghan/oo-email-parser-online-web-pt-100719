@@ -15,7 +15,7 @@ class EmailAddressParser
     array=@csv_emails.split(',')
     two = array.each do
       |email| email.split(' ')
-      binding.pry
+      #binding.pry
     end 
     
   end
